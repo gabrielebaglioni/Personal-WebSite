@@ -4,7 +4,7 @@
 const App = () => {
     return (
         <div>
-            3D Develop Portfolio
+            3D Develop Portfolio ...
         </div>
     )
 }
