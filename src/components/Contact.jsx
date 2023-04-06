@@ -7,7 +7,12 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
-
+//ervice_ID
+//service_1ro9uxn
+//template_ID
+//template_pim7ugr
+//public_key
+//w6h8bZHbwCxP2M6Us
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -34,8 +39,8 @@ const Contact = () => {
 
     emailjs
         .send(
-            import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-            import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+            'service_1ro9uxn',
+            'template_pim7ugr',
             {
               from_name: form.name,
               to_name: "Frank",
@@ -43,7 +48,7 @@ const Contact = () => {
               to_email: "gabrielebaglioni55@gmail.com",
               message: form.message,
             },
-            import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+            'w6h8bZHbwCxP2M6Us'
         )
         .then(
             () => {
