@@ -29,6 +29,13 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import boolean from "./boolean.png";
+import manpower from "./manpower.png";
+import digital from "./digital.png";
+import ai from "./ai.png";
+import ai2 from "./ai2.png";
+import blockchain from "./blockchain.png";
+import research from "./research.png";
 
 export {
   logo,
@@ -59,4 +66,11 @@ export {
   carrent,
   jobit,
   tripguide,
+  boolean,
+  manpower,
+  digital,
+  ai,
+  ai2,
+  blockchain,
+  research
 };

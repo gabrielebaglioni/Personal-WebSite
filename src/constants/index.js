@@ -1,3 +1,7 @@
+
+
+
+
 import {
     mobile,
     backend,
@@ -15,14 +19,19 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    boolean,
     carrent,
     jobit,
     tripguide,
     threejs,
+    manpower,
+    digital,
+    ai,
+    ai2,
+    blockchain,
+    research,
+    
+
 } from "../assets";
 
 export const navLinks = [
@@ -54,6 +63,14 @@ const services = [
         icon: backend,
     },
     {
+        title: "Web3 & Blockchain Developer",
+        icon: blockchain,
+    },
+    {
+        title: "Ai researcher and visionary",
+        icon: ai,
+    },
+    {
         title: "Service Creator",
         icon: creator,
     },
@@ -76,13 +93,10 @@ const technologies = [
         name: "TypeScript",
         icon: typescript,
     },
+
     {
-        name: "React JS",
+        name: "reactjs",
         icon: reactjs,
-    },
-    {
-        name: "Redux Toolkit",
-        icon: redux,
     },
     {
         name: "Tailwind CSS",
@@ -116,55 +130,59 @@ const technologies = [
 
 const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
+        title: "Visionary Full Stack Developer",
+        company_name: "Independent",
+        icon: web,
         iconBg: "#383E56",
-        date: "March 2020 - April 2021",
+        date: "Start Date - End Date",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Self-taught expertise in full stack development with a focus on backend technologies like C# .NET, and frontend frameworks like Angular and React.",
+            "Continuous learning and application of CSS frameworks and advanced JavaScript frameworks.",
+            "Paused university studies to pursue a professional career in software development, leading to a role that aligns with the forefront of technological innovation."
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
+        title: "Blockchain Ethicist and Developer",
+        company_name: "Freelance",
+        icon: blockchain,
+        iconBg: "#4B5D67",
+        date: "Start Date - End Date",
+        points: [
+            "Explored the ethical dimensions and capabilities of blockchain technology, particularly its application in protecting and certifying digital rights.",
+            "Passionate about leveraging blockchain to create transparent and equitable systems for artists and creators."
+        ],
+    },
+    {
+        title: "Strategic Technology Advocate",
+        company_name: "Current Company",
+        icon: digital,
         iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
+        date: "Start Date - Present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Initiated and championed the adoption of a progressive technological stack, enhancing organizational efficiency and readiness for future IT industry demands.",
+            "Recognized internally for steering pivotal technological advancements and fostering an innovation-centric work culture."
         ],
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#383E56",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
+        title: "Impact-Driven Software Developer",
+        company_name: "Digital Engineering",
+        icon: digital,
         iconBg: "#E6DEDD",
-        date: "Jan 2023 - Present",
+        date: "Start Date - Present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "As a full stack developer, collaborated on various projects post-training, contributing to high-quality software product development.",
+            "Engaged in code reviews and provided constructive feedback, upholding high standards of coding practices."
+        ],
+    },
+    {
+        title: "Researcher In Author Rights",
+        company_name: "Independent Research",
+        icon: research,
+        iconBg: "#5E8B7E",
+        date: "Start Date - Present",
+        points: [
+            "Currently developing a scientific paper examining the intersection of AI, blockchain, and copyright systems like SIAE.",
+            "Investigating how AI can be programmed to recognize the uniqueness of artistic works, using blockchain for copyright, and understanding the economic system around creative rights."
         ],
     },
 ];

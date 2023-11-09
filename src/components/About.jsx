@@ -1,11 +1,11 @@
 import React from "react";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
-
 import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
-import { fadeIn, textVariant } from "../utils/motion";
+import{ fadeIn, textVariant } from "../utils/motion";
+
 
 const ServiceCard = ({ index, title, icon }) => (
     <Tilt className='xs:w-[250px] w-full'>
@@ -24,7 +24,7 @@ const ServiceCard = ({ index, title, icon }) => (
           <img
               src={icon}
               alt='web-development'
-              className='w-16 h-16 object-contain'
+              className='w-16 h-16 object-contain bg-transparent'
           />
 
           <h3 className='text-white text-[20px] font-bold text-center'>
@@ -47,11 +47,13 @@ const About = () => {
             variants={fadeIn("", "", 0.1, 1)}
             className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          I'm a skilled software developer with experience in TypeScript and
-          JavaScript, and expertise in frameworks like React, Angular, c#(.NET) Node.js, and
-          Three.js. I'm a quick learner and collaborate closely with clients to
-          create efficient, scalable, and user-friendly solutions that solve
-          real-world problems. Let's work together to bring your ideas to life!
+          I'm an experienced software developer with a passion for full stack 
+          development and a knack for leading transformational changes in technology. 
+          Proficient in languages like TypeScript and JavaScript, and well-versed in frameworks
+           such as React, Angular, Node.js, and Three.js, my forte lies in 
+           creating software layers that integrate seamlessly with existing systems
+            and enhance user engagement. I'm eager to collaborate on projects that
+           push the boundaries of AI and software engineering. Let's innovate together!
         </motion.p>
 
         <div className='mt-20 flex flex-wrap gap-10'>
